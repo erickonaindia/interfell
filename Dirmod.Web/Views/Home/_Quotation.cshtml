@@ -1,0 +1,15 @@
+﻿@model Dirmod.Web.Models.QuotationViewModel
+
+<div class="box-body">
+    <ul class="list-group">
+        <li class="list-group-item">Last Update: @DateTime.Now</li>
+        @foreach (var item in Model.QuotationList)
+        {
+            <li class="list-group-item">Moneda: @item.Moneda - Precio: @item.Precio </li>
+        }
+    </ul>
+</div>
+
+
+
+

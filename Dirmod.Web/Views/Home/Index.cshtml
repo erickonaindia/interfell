@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Cotizaciones</h1>
+        <div id="quotation"></div>
+    </div>
+
+@section Scripts {
+<script type="text/javascript">
+    $(document).ready(function() {
+        refreshDiv();
+    });
+
+    function refreshDiv(){
+        var url = '@Url.Action("GetDataAPI", "HOME")';
+        $.ajax({
+            dataType: 'text',
+            type: 'GET',
+            url: url,
+        }).done(function (response) {
+            $('#quotation').html(response);
+            setTimeout(refreshDiv, 5000);
+        });
+    }
+</script>
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dirmod.Web", "Dirmod.Web\Dirmod.Web.csproj", "{D051E476-7304-45E4-9D67-8C0FB4AE605B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dirmod.API", "Dirmod.API\Dirmod.API.csproj", "{A2782559-A05F-4012-AF7D-99F830495ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D051E476-7304-45E4-9D67-8C0FB4AE605B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D051E476-7304-45E4-9D67-8C0FB4AE605B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D051E476-7304-45E4-9D67-8C0FB4AE605B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D051E476-7304-45E4-9D67-8C0FB4AE605B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2782559-A05F-4012-AF7D-99F830495ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2782559-A05F-4012-AF7D-99F830495ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2782559-A05F-4012-AF7D-99F830495ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2782559-A05F-4012-AF7D-99F830495ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52213E16-3B71-4D43-B435-981360B08837}
+	EndGlobalSection
+EndGlobal
